@@ -6,7 +6,7 @@ const Footer = () => {
         <div className="container mx-auto px-4 py-6 text-center text-muted-foreground">
           <p>&copy; 2023 PhishGuard Project. For educational purposes only.</p>
           <a 
-            href="https://github.com/yourusername/phishguard" 
+            href="https://github.com/shivain2393/phishguard-project" 
             target="_blank" 
             rel="noopener noreferrer"
             className="inline-flex items-center text-primary hover:underline mt-2"

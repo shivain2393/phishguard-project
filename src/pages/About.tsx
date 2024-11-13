@@ -25,10 +25,7 @@ const About = () => {
             <section>
               <h2 className="text-2xl font-semibold mb-2">Our Mission</h2>
               <p className="text-muted-foreground">
-                PhishGuard aims to empower internet users with the knowledge and
-                tools to identify and avoid phishing attempts. By combining
-                cutting-edge technology with user education, we strive to create
-                a safer online environment for everyone.
+              PhishGuard is an innovative cybersecurity project developed to combat the rising threat of phishing attacks. This comprehensive solution was designed and built by a dedicated team of developers and researchers:
               </p>
             </section>
 
@@ -36,17 +33,20 @@ const About = () => {
               <h2 className="text-2xl font-semibold mb-2">The Team</h2>
               <div className="space-y-4">
                 <div>
-                  <h3 className="text-xl font-medium">Project Creator</h3>
-                  <p className="text-muted-foreground">
-                    Jane Doe - Cybersecurity Enthusiast and Full-Stack Developer
-                  </p>
+                  <ul className="list-disc list-inside space-y-2">
+                    <li>Shivain Sagar</li>
+                    <li>Tarun Singh Negi</li>
+                    <li>Sachin</li>
+                    <li>Justin Johnson</li>
+                  </ul>
                 </div>
                 <div>
-                  <h3 className="text-xl font-medium">Mentor</h3>
-                  <p className="text-muted-foreground">
-                    Dr. John Smith - Professor of Computer Science, XYZ
-                    University
-                  </p>
+                  <h3 className="text-xl font-medium pb-2">Mentor</h3>
+                  <ul className=" list-disc list-inside space-y-2">
+                    <li>
+                      Professor Koyel Datta Gupta
+                    </li>
+                  </ul>
                 </div>
               </div>
             </section>
@@ -62,14 +62,6 @@ const About = () => {
                   Educate users about the dangers of phishing and how to protect
                   themselves
                 </li>
-                <li>
-                  Contribute to the open-source community by sharing our
-                  research and code
-                </li>
-                <li>
-                  Collaborate with cybersecurity experts to improve our
-                  detection algorithms
-                </li>
               </ul>
             </section>
 
@@ -82,7 +74,7 @@ const About = () => {
               </p>
               <Button asChild>
                 <a
-                  href="https://github.com/yourusername/phishguard"
+                  href="https://github.com/shivain2393/phishguard-project"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
